@@ -16,3 +16,27 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#app {
+  width: 100%;
+  // min-height: 100px;
+  // min-height: 100vh;
+  min-height: calc(100vh - 100px);
+  // background-color: #ff0f00;
+}
+
+.hero {
+  height: 330px;
+  // background-color: antiquewhite;
+  background-image: url(../images/7.jpg);
+  background-size: cover;
+  background-position: center;
+}
