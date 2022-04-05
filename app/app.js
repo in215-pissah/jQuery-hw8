@@ -6,55 +6,7 @@ var homeContent = `<div class="hero"></div>
           </h1>
           <div class="productS">
             <div class="product">
-              <div class="prod-image"></div>
-              <div class="prod-desc">
-                <h3>Big City</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo accusantium veritatis sint distinctio modi! Est
-                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
-                  Voluptatibus unde asperiores quam quis vero atque explicabo
-                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
-                  autem, libero officiis culpa nemo aliquam in. Maiores,
-                  recusandae? Enim.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo accusantium veritatis sint distinctio modi! Est
-                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
-                  Voluptatibus unde asperiores quam quis vero atque explicabo
-                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
-                  autem, libero officiis culpa nemo aliquam in. Maiores,
-                  recusandae? Enim.
-                </p>
-              </div>
-            </div>
-            <div class="product">
-              <div class="prod-image"></div>
-              <div class="prod-desc">
-                <h3>Big City</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo accusantium veritatis sint distinctio modi! Est
-                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
-                  Voluptatibus unde asperiores quam quis vero atque explicabo
-                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
-                  autem, libero officiis culpa nemo aliquam in. Maiores,
-                  recusandae? Enim.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo accusantium veritatis sint distinctio modi! Est
-                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
-                  Voluptatibus unde asperiores quam quis vero atque explicabo
-                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
-                  autem, libero officiis culpa nemo aliquam in. Maiores,
-                  recusandae? Enim.
-                </p>
-              </div>
-            </div>
-            <div class="product">
-              <div class="prod-image"></div>
+               <div class="prod-image"></div>
               <div class="prod-desc">
                 <h3>Big City</h3>
                 <p>
@@ -115,10 +67,58 @@ var aboutContent = `<div class="hero"></div>
 var productContent = `<div class="hero"></div>
         <div class="content">
           <h1>
-            PRODUCTS
+            HOME
             <hr />
           </h1>
           <div class="productS">
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
             <div class="product">
               <div class="prod-image"></div>
               <div class="prod-desc">
