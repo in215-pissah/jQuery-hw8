@@ -1,59 +1,140 @@
-// var firstname = "Pierce";
+var homeContent = `<div class="hero"></div>
+        <div class="content">
+          <h1>
+            HOME
+            <hr />
+          </h1>
+          <div class="productS">
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>`;
+var aboutContent = `<div class="hero"></div>
+        <div class="content">
+          <h1>
+            ABOUT
+            <hr />
+          </h1>
+          <div class="productS">
+            <div class="product">
+              <div class="prod-image"></div>
+              <div class="prod-desc">
+                <h3>Big City</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo accusantium veritatis sint distinctio modi! Est
+                  nobis mollitia assumenda. Recusandae ad quis architecto quod.
+                  Voluptatibus unde asperiores quam quis vero atque explicabo
+                  dolorem, eligendi, est soluta iusto eius veniam. Minima magnam
+                  autem, libero officiis culpa nemo aliquam in. Maiores,
+                  recusandae? Enim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>`;
+var productContent = `<h1>PRODUCTS</h1>`;
+var contactContent = `<h1>CONTACT</h1>`;
 
-var homeContent = "<h1>HOME</h1>";
-var aboutContent = `<h1>ABOUT</h1> 
-      <p style="color:purple">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima
-        ab enim sit inventore optio!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima
-        ab enim sit inventore optio!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima
-        ab enim sit inventore optio!
-      </p> `;
-var productContent = "<h1>PRODUCTS</h1>";
-var contactContent = "<h1>CONTACT</h1>";
-
-// function makeComment(comment) {
-//     // console.log("ready");
-//     console.log(comment);
-//     // console.log(firstname);
-// }
-
-function addButtonListeners() {
-    $("nav a").click(function (e) {
-        // function(e)
-        // function(event)
-        // function(evt)
-        let bthId = e.currentTarget.id;
-        let contentName = bthId + "Content";
-        // console.log(e);
-        // console.log("addbutton");
-        // console.log(bthId);
-        console.log(contentName);
-        // $("#app").html("Pierce");
-        $("#app").html(eval(contentName));
-        // $("#app").prepend("Pierce");
-        // $("#app").append("Pierce");
-    });
-    // To call class
-    // $("nav .class");
+function initListerners() {
+  $("nav a").click(function (e) {
+    let btnID = e.currentTarget.id;
+    // let contentID = btnID + "Content";
+    // $("#app").html(eval(contentID));
+    loadPageContent(btnID);
+    // console.log("click" + btnID);
+  })
 }
 
-function init() {
-    // console.log(comment);
-    $("#app").html(homeContent)
-    addButtonListeners();
-    // console.log("comment");
-}
+function loadPageContent(pageName) {
+  let contentID = pageName + "Content";
+  $("#app").html(eval(contentID));
+};
 
+function initApp() {
+  initListerners();
+}
 
 $(document).ready(function () {
-    // alert("ready");
-    // let firstname = "Sarah";
-    // makeComment(firstname);
-    init();
+  loadPageContent("home");
+  initApp();
 });
