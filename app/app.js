@@ -145,7 +145,13 @@ var productContent = `<div class="hero"></div>
             </div>
           </div>
         </div>`;
-var contactContent = `<h1>CONTACT</h1>`;
+var contactContent = `<div class="hero"></div>
+        <div class="content">
+          <h1>
+            CONTACT
+            <hr />
+          </h1>
+        </div>`;
 
 function initListerners() {
   $("nav a").click(function (e) {
