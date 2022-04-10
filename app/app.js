@@ -67,7 +67,7 @@ var aboutContent = `<div class="hero"></div>
 var productContent = `<div class="hero"></div>
         <div class="content">
           <h1>
-            HOME
+            PRODUCTS
             <hr />
           </h1>
           <div class="productS">
