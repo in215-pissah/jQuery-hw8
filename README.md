@@ -1,7 +1,7 @@
 # About Page for Homework 8
 
-### Web 4 Link
+### GitHub Pages Link
 
-https://in-info-web4.informatics.iupui.edu/~pissah/SP22/homework-eight/
+https://in215-pissah.github.io/jQuery-hw8/
 
 The goal of this project is to create a web site and add content to the page when you click on a link by using jQuery.
