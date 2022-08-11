@@ -1,4 +1,4 @@
-# About Page for Homework 8
+# About Page using jQuery
 
 ### GitHub Pages Link
 
